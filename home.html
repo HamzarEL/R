@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>home</title>
+  <link rel="preload stylesheet" href="css/style.css" as="style">
+  <link rel="preload stylesheet" href="css/mobile.css" as="style">
+  <link rel="preload stylesheet" href="css/global.css" as="style">
+  <link rel="preload stylesheet" href="css/text.css" as="style">
+</head>
+
+<body id="home">
+  <!-- Header -->
+  <header class="header header__line">
+    <!-- Left icon -->
+    <button href="" class="header__left-icon" id="openModal">
+      <img src="svg/burger.svg" alt="go back icon">
+    </button>
+    <!-- Basket -->
+    <a class="header__right-icon" href="order.html">
+      <img src="svg/bag.svg" alt="basket">
+      <span class="header__total">$0</span>
+    </a>
+  </header>
+
+  <!-- Main -->
+  <main>
+
+    <!-- Carousel -->
+    <section class="embla">
+      <div class="embla__container">
+        <div class="embla__slide">
+          <a href="shop.html">
+            <img src="https://george-fx.github.io/stephub/assets/carousel/01.png" alt="product" class="product__image">
+          </a>
+        </div>
+        <div class="embla__slide">
+          <a href="shop.html">
+            <img src="https://george-fx.github.io/stephub/assets/carousel/01.png" alt="product" class="product__image">
+          </a>
+        </div>
+        <div class="embla__slide">
+          <a href="shop.html">
+            <img src="https://george-fx.github.io/stephub/assets/carousel/01.png" alt="product" class="product__image">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dots -->
+    <section class="embla__dots"></section>
+
+    <!-- Best sellers -->
+    <section class="best-sellers">
+      <!-- Block Heading -->
+      <div class="block-heading container">
+        <h3>Best sellers</h3>
+        <a href="shop.html">
+          <img src="svg/view-all.svg" alt="View All" class="view-all">
+        </a>
+      </div>
+      <!-- Products -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <ul class="swiper-wrapper">
+          <!-- 01 -->
+          <li class="swiper-slide">
+            <!-- Image -->
+            <a href="product.html" class="product__link">
+              <img src="https://george-fx.github.io/stephub/assets/products/01.jpg" alt="product"
+                class="product__image">
+              <button class="product__heart">
+                <img src="svg/shop-heart.svg" alt="button">
+              </button>
+              <button class="product__bag">
+                <img src="svg/shop-bag.svg" alt="button">
+              </button>
+            </a>
+            <!-- Rating -->
+            <div class="product__rating-wrapper">
+              <img src="svg/rating.svg" alt="rating" class="product__rating">
+              <span class="t12">(3)</span>
+            </div>
+            <!-- Name -->
+            <span class="t16">FlexFit Training Shoes</span>
+            <span class="t14 product__price">$74.99</span>
+          </li>
+          <!-- 02 -->
+          <li class="swiper-slide">
+            <!-- Image -->
+            <a href="product.html" class="product__link">
+              <img src="https://george-fx.github.io/stephub/assets/products/02.jpg" alt="product"
+                class="product__image">
+              <img src="svg/shop-heart.svg" alt="button" class="product__heart">
+              <img src="svg/shop-bag.svg" alt="button" class="product__bag">
+              <img src="svg/sale.svg" alt="sale" class="product__sale">
+            </a>
+            <!-- Rating -->
+            <div class="product__rating-wrapper">
+              <img src="svg/rating.svg" alt="rating" class="product__rating">
+              <span class="t12">(3)</span>
+            </div>
+            <span class="t16">Velocity Runners</span>
+            <div>
+              <span class="t12 product__old-price">$74.99</span>
+              <span class="t14 product__new-price">$74.99</span>
+            </div>
+          </li>
+          <!-- 03 -->
+          <li class="swiper-slide">
+            <a href="product.html" class="product__link">
+              <img src="https://george-fx.github.io/stephub/assets/products/03.jpg" alt="product"
+                class="product__image">
+              <img src="svg/shop-heart.svg" alt="button" class="product__heart">
+              <img src="svg/shop-bag.svg" alt="button" class="product__bag">
+            </a>
+            <div class="product__rating-wrapper">
+              <img src="svg/rating.svg" alt="rating" class="product__rating">
+              <span class="t12">(3)</span>
+            </div>
+            <span class="t16">Seeker Hiking Boots</span>
+            <span class="t14 product__price">$89.99</span>
+          </li>
+          <!-- 04 -->
+          <li class="swiper-slide">
+            <a href="product.html" class="product__link">
+              <img src="https://george-fx.github.io/stephub/assets/products/04.jpg" alt="product"
+                class="product__image">
+              <img src="svg/shop-heart.svg" alt="button" class="product__heart">
+              <img src="svg/shop-bag.svg" alt="button" class="product__bag">
+            </a>
+            <div class="product__rating-wrapper">
+              <img src="svg/rating.svg" alt="rating" class="product__rating">
+              <span class="t12">(3)</span>
+            </div>
+            <span class="t16">Dapper Derby Shoes</span>
+            <span class="t14 product__price">$119.99</span>
+          </li>
+          <!-- 05 -->
+          <li class="swiper-slide">
+            <a href="product.html" class="product__link">
+              <img src="https://george-fx.github.io/stephub/assets/products/05.jpg" alt="product"
+                class="product__image">
+              <img src="svg/shop-heart.svg" alt="button" class="product__heart">
+              <img src="svg/shop-bag.svg" alt="button" class="product__bag">
+            </a>
+            <div class="product__rating-wrapper">
+              <img src="svg/rating.svg" alt="rating" class="product__rating">
+              <span class="t12">(3)</span>
+            </div>
+            <span class="t16">Urban Charm Sneakers</span>
+            <span class="t14 product__price">$54.99</span>
+          </li>
+          <!-- 06 -->
+          <li class="swiper-slide">
+            <a href="product.html" class="product__link">
+              <img src="https://george-fx.github.io/stephub/assets/products/06.jpg" alt="product"
+                class="product__image">
+              <img src="svg/shop-heart.svg" alt="button" class="product__heart">
+              <img src="svg/shop-bag.svg" alt="button" class="product__bag">
+            </a>
+            <div class="product__rating-wrapper">
+              <img src="svg/rating.svg" alt="rating" class="product__rating">
+              <span class="t12">(3)</span>
+            </div>
+            <span class="t16">Seeker Hiking Boots</span>
+            <span class="t14 product__price">$74.99</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Banner -->
+    <a href="shop.html">
+      <img src="https://george-fx.github.io/stephub/assets/banners/01.png" alt="Example Image" class="banner" />
+    </a>
+
+    <!-- Featured products -->
+    <section class="featured-products">
+      <!-- Block Heading -->
+      <div class="block-heading container">
+        <h3>Featured products</h3>
+        <a href="shop.html">
+          <img src="svg/view-all.svg" alt="View All" class="view-all">
+        </a>
+      </div>
+
+      <!-- Products -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <ul class="swiper-wrapper">
+          <!-- 01 -->
+          <li class="swiper-slide">
+            <a href="product.html" class="product__link">
+              <img src="https://george-fx.github.io/stephub/assets/products/06.jpg" alt="product"
+                class="product__image">
+              <img src="svg/shop-heart.svg" alt="button" class="product__heart">
+              <img src="svg/shop-bag.svg" alt="button" class="product__bag">
+            </a>
+            <!-- Rating -->
+            <div class="product__rating-wrapper">
+              <img src="svg/rating.svg" alt="rating" class="product__rating">
+              <span class="t12">(3)</span>
+            </div>
+            <span class="t16 product__name">Hiking Boots</span>
+            <span class="t14 product__price">$74.99</span>
+          </li>
+          <!-- 02 -->
+          <li class="swiper-slide">
+            <a href="product.html" class="product__link">
+              <img src="https://george-fx.github.io/stephub/assets/products/05.jpg" alt="product"
+                class="product__image">
+              <img src="svg/shop-heart.svg" alt="button" class="product__heart">
+              <img src="svg/shop-bag.svg" alt="button" class="product__bag">
+              <img src="svg/sale.svg" alt="sale" class="product__sale">
+            </a>
+            <!-- Rating -->
+            <div class="product__rating-wrapper">
+              <img src="svg/rating.svg" alt="rating" class="product__rating">
+              <span class="t12">(3)</span>
+            </div>
+            <span class="t16 product__name">Charm Sneakers</span>
+            <div>
+              <span class="t12 product__old-price">$74.99</span>
+              <span class="t14 product__new-price">$74.99</span>
+            </div>
+          </li>
+          <!-- 03 -->
+          <li class="swiper-slide">
+            <a href="product.html" class="product__link">
+              <img src="https://george-fx.github.io/stephub/assets/products/04.jpg" alt="product"
+                class="product__image">
+              <img src="svg/shop-heart.svg" alt="button" class="product__heart">
+              <img src="svg/shop-bag.svg" alt="button" class="product__bag">
+            </a>
+            <!-- Rating -->
+            <div class="product__rating-wrapper">
+              <img src="svg/rating.svg" alt="rating" class="product__rating">
+              <span class="t12">(3)</span>
+            </div>
+            <!-- Name and price -->
+            <span class="t16 product__name">Derby Shoes</span>
+            <span class="t14 product__price">$119.99</span>
+          </li>
+          <!-- 04 -->
+          <li class="swiper-slide">
+            <a href="product.html" class="product__link">
+              <img src="https://george-fx.github.io/stephub/assets/products/03.jpg" alt="product"
+                class="product__image">
+              <img src="svg/shop-heart.svg" alt="button" class="product__heart">
+              <img src="svg/shop-bag.svg" alt="button" class="product__bag">
+            </a>
+            <!-- Rating -->
+            <div class="product__rating-wrapper">
+              <img src="svg/rating.svg" alt="rating" class="product__rating">
+              <span class="t12">(3)</span>
+            </div>
+            <!-- Name and price -->
+            <span class="t16 product__name">Hiking Boots</span>
+            <span class="t14 product__price">$89.99</span>
+          </li>
+          <!-- 05 -->
+          <li class="swiper-slide">
+            <a href="product.html" class="product__link">
+              <img src="https://george-fx.github.io/stephub/assets/products/02.jpg" alt="product"
+                class="product__image">
+              <img src="svg/shop-heart.svg" alt="button" class="product__heart">
+              <img src="svg/shop-bag.svg" alt="button" class="product__bag">
+            </a>
+            <!-- Rating -->
+            <div class="product__rating-wrapper">
+              <img src="svg/rating.svg" alt="rating" class="product__rating">
+              <span class="t12">(3)</span>
+            </div>
+            <!-- Name and price -->
+            <span class="t16 product__name">Velocity Runners</span>
+            <span class="t14 product__price">$73.99</span>
+          </li>
+          <!-- 06 -->
+          <li class="swiper-slide">
+            <a href="product.html" class="product__link">
+              <img src="https://george-fx.github.io/stephub/assets/products/01.jpg" alt="product"
+                class="product__image">
+              <img src="svg/shop-heart.svg" alt="button" class="product__heart">
+              <img src="svg/shop-bag.svg" alt="button" class="product__bag">
+            </a>
+            <!-- Rating -->
+            <div class="product__rating-wrapper">
+              <img src="svg/rating.svg" alt="rating" class="product__rating">
+              <span class="t12">(3)</span>
+            </div>
+            <!-- Name and price -->
+            <span class="t16 product__name">Training Shoes</span>
+            <span class="t14 product__price">$74.99</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- Модальное окно -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <span class="line"></span>
+      <h2 class="title">Contact us</h2>
+
+      <ul>
+        <!-- Item -->
+        <li class="contact-info">
+          <img src="/svg/map-pin.svg" alt="add to cart" class="contact-info__icon">
+          <div class="contact-info__text">
+            <span class="t14">27 Division St, New York,</span>
+            <span class="t14">NY 10002, USA</span>
+          </div>
+        </li>
+        <!-- Item -->
+        <li class="contact-info">
+          <img src="/svg/contact-mail.svg" alt="add to cart" class="contact-info__icon">
+          <div class="contact-info__text">
+            <span class="t14">stephubsale@mail.com</span>
+            <span class="t14">stephubsupport@mail.com</span>
+          </div>
+        </li>
+        <!-- Item -->
+        <li class="contact-info">
+          <img src="/svg/phone-call.svg" alt="add to cart" class="contact-info__icon">
+          <div class="contact-info__text">
+            <span class="t14">+17 123456789</span>
+            <span class="t14">+17 987654321</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <ul>
+      <li>
+        <a href="">
+          <img src="svg/home-active.svg" alt="svg icon" />
+        </a>
+      </li>
+      <li>
+        <a href="categories.html">
+          <img src="svg/search.svg" alt="svg icon" />
+        </a>
+      </li>
+      <li>
+        <a href="order.html">
+          <img src="svg/bag-tab.svg" alt="svg icon" />
+        </a>
+      </li>
+      <li>
+        <a href="wishlist.html">
+          <img src="svg/heart.svg" alt="svg icon" />
+        </a>
+      </li>
+      <li>
+        <a href="profile.html">
+          <img src="svg/user.svg" alt="svg icon" />
+        </a>
+      </li>
+    </ul>
+  </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/embla.js"></script>
+<script src="js/script.js"></script>
+<script>
+
+  document.getElementById('openModal').onclick = function () {
+    document.getElementById('modal').style.display = 'block';
+  }
+
+
+  document.querySelector('.close').onclick = function () {
+    document.getElementById('modal').style.display = 'none';
+  }
+
+
+  window.onclick = function (event) {
+    if (event.target == document.getElementById('modal')) {
+      document.getElementById('modal').style.display = 'none';
+    }
+  }
+</script>
+
+</html>

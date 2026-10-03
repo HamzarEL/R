@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
+  <title>order-history</title>
+  <link rel="preload stylesheet" href="css/style.css" as="style">
+  <link rel="preload stylesheet" href="css/mobile.css" as="style">
+  <link rel="preload stylesheet" href="css/global.css" as="style">
+  <link rel="preload stylesheet" href="css/text.css" as="style">
+</head>
+
+<body id="order-history">
+
+  <!-- Header -->
+  <header class="header">
+    <!-- Left icon -->
+    <a href="profile.html" class="header__left-icon">
+      <img src="svg/go-back.svg" alt="go back icon">
+    </a>
+    <!-- Title -->
+    <h4 class="header__mdl-element">Order history</h4>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <div class="accordion-container">
+      <!-- 01 -->
+      <div class="ac">
+        <!-- acc header -->
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            <div class="ac-trigger-content">
+              <span class="t16 number">#456345</span>
+              <img src="svg/shipping.svg" alt="Shipping" class="ac-trigger-icon">
+            </div>
+            <div class="ac-trigger-content">
+              <span class="t12 date">Feb 02, 2024 at 8:32 PM</span>
+              <span class="t12 price">$354.32</span>
+            </div>
+          </button>
+        </h2>
+        <!-- acc panel -->
+        <div class="ac-panel">
+          <div class="ac-panel-content">
+            <ul class="ac-panel-list">
+              <li class="ac-panel-item">
+                <span class="t14">Velocity Runners, 41, white</span>
+                <span class="t14">1 x $73.99</span>
+              </li>
+              <li class="ac-panel-item">
+                <span class="t14">Basketball Shoes, 41, navy</span>
+                <span class="t14">1 x $55.98</span>
+              </li>
+            </ul>
+            <div class="ac-panel-actions">
+              <a href="order.html">
+                <img src="svg/repeat-order.svg" alt="repeat" class="ac-panel-icon">
+              </a>
+              <a href="leave-a-review.html">
+                <img src="svg/leave-a-review.svg" alt="repeat" class="ac-panel-icon">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 02 -->
+      <div class="ac">
+        <!-- acc header -->
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            <div class="ac-trigger-content">
+              <span class="t16 number">#456345</span>
+              <img src="svg/delivered.svg" alt="Shipping" class="ac-trigger-icon">
+            </div>
+            <div class="ac-trigger-content">
+              <span class="t12 date">Feb 02, 2024 at 8:32 PM</span>
+              <span class="t12 price">$354.32</span>
+            </div>
+          </button>
+        </h2>
+        <!-- acc panel -->
+        <div class="ac-panel">
+          <div class="ac-panel-content">
+            <ul class="ac-panel-list">
+              <li class="ac-panel-item">
+                <span class="t14">Velocity Runners, 41, white</span>
+                <span class="t14">1 x $73.99</span>
+              </li>
+              <li class="ac-panel-item">
+                <span class="t14">Basketball Shoes, 41, navy</span>
+                <span class="t14">1 x $55.98</span>
+              </li>
+            </ul>
+            <div class="ac-panel-actions">
+              <a href="order.html">
+                <img src="svg/repeat-order.svg" alt="repeat" class="ac-panel-icon">
+              </a>
+              <a href="leave-a-review.html">
+                <img src="svg/leave-a-review.svg" alt="repeat" class="ac-panel-icon">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 03 -->
+      <div class="ac">
+        <!-- acc header -->
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            <div class="ac-trigger-content">
+              <span class="t16 number">#456345</span>
+              <img src="svg/canceled.svg" alt="Shipping" class="ac-trigger-icon">
+            </div>
+            <div class="ac-trigger-content">
+              <span class="t12 date">Feb 02, 2024 at 8:32 PM</span>
+              <span class="t12 price">$354.32</span>
+            </div>
+          </button>
+        </h2>
+        <!-- acc panel -->
+        <div class="ac-panel">
+          <div class="ac-panel-content">
+            <ul class="ac-panel-list">
+              <li class="ac-panel-item">
+                <span class="t14">Velocity Runners, 41, white</span>
+                <span class="t14">1 x $73.99</span>
+              </li>
+              <li class="ac-panel-item">
+                <span class="t14">Basketball Shoes, 41, navy</span>
+                <span class="t14">1 x $55.98</span>
+              </li>
+            </ul>
+            <div class="ac-panel-actions">
+              <a href="order.html">
+                <img src="svg/repeat-order.svg" alt="repeat" class="ac-panel-icon">
+              </a>
+              <a href="leave-a-review.html">
+                <img src="svg/leave-a-review.svg" alt="repeat" class="ac-panel-icon">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+</body>
+<script src="https://unpkg.com/accordion-js@3.3.4/dist/accordion.min.js"></script>
+<script>
+  new Accordion('.accordion-container', {
+    ariaEnabled: false,
+  });
+</script>
+
+</html>

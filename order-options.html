@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
+  <title>order-options</title>
+  <link rel="preload stylesheet" href="css/style.css" as="style">
+  <link rel="preload stylesheet" href="css/mobile.css" as="style">
+  <link rel="preload stylesheet" href="css/global.css" as="style">
+  <link rel="preload stylesheet" href="css/text.css" as="style">
+</head>
+
+<body id="order-options">
+
+  <!-- Header -->
+  <header class="header header__line">
+    <!-- Left icon -->
+    <a href="home.html" class="header__left-icon" id="openModal">
+      <img src="svg/go-back.svg" alt="go back icon">
+    </a>
+    <!-- Title -->
+    <h4 class="header__mdl-element">Order</h4>
+    <!-- Basket -->
+    <a class="header__right-icon" href="order.html">
+      <img src="svg/bag.svg" alt="basket">
+      <span class="header__total">$0</span>
+    </a>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <!-- Products -->
+    <section class="products">
+      <!-- List -->
+      <ul class="products__list">
+        <!-- Item 01 -->
+        <li class="products__item">
+          <!-- Image -->
+          <div class="products__image-wrapper">
+            <a href="product.html" class="products__link">
+              <img src="https://george-fx.github.io/stephub/assets/products/01.jpg" alt="Example Image"
+                class="products__image">
+              <img src="svg/sale.svg" alt="sale" class="product__sale">
+            </a>
+          </div>
+          <!-- Info -->
+          <div class="products__info">
+            <span class="products__title t14">Product Title</span>
+            <span class="products__price">
+              <span class="t12 old-price">$89.99</span>
+              <span class="t14 new-price">$89.99</span>
+            </span>
+            <span class="products__description t14">Size: - 41</span>
+            <span class="products__description t14">Color: White</span>
+          </div>
+          <!-- Counter -->
+          <div class="counter">
+            <button>
+              <img src="svg/counter-plus.svg" Example SVG" class="counter__minus">
+            </button>
+            <span class="counter__number t16">1</span>
+            <button>
+              <img src="svg/counter-minus.svg" alt="svg icon" class="counter__plus">
+            </button>
+          </div>
+        </li>
+        <!-- Item 02 -->
+        <li class="products__item">
+          <!-- Image -->
+          <div class="products__image-wrapper">
+            <a href="product.html" class="products__link">
+              <img src="https://george-fx.github.io/stephub/assets/products/02.jpg" alt="Example Image"
+                class="products__image">
+            </a>
+          </div>
+          <!-- Info -->
+          <div class="products__info">
+            <span class="products__title t14">Product Title</span>
+            <span class="products__price">
+              <span class="t14 price">$89.99</span>
+            </span>
+            <span class="products__description t14">Size: - 41</span>
+            <span class="products__description t14">Color: White</span>
+          </div>
+          <!-- Counter -->
+          <div class="counter">
+            <button>
+              <img src="svg/counter-plus.svg" Example SVG" class="counter__minus">
+            </button>
+            <span class="counter__number t16">1</span>
+            <button>
+              <img src="svg/counter-minus.svg" alt="svg icon" class="counter__plus">
+            </button>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Promocode applied -->
+    <section class="promocode container">
+      <img src="svg/promocode-applied.svg" alt="applied">
+    </section>
+
+    <!-- Total -->
+    <section class="summary">
+      <div class="summary__subtotal container">
+        <h5>Subtotal</h5>
+        <h5>$129,97</h5>
+      </div>
+      <div class="summary__discount container">
+        <span class="t16">Discount</span>
+        <span class="t16">-12.99</span>
+      </div>
+      <div class="summary__delivery container">
+        <span class="t16">Delivery</span>
+        <span class="t16 free">Free</span>
+      </div>
+      <div class="summary__total container">
+        <h4>Total</h4>
+        <h4>$129,97</h4>
+      </div>
+    </section>
+
+    <!-- Button -->
+    <section class="container button__wrapper">
+      <a href="shipping-and-payment-info.html" class="button light">Shipping & Payment info</a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <ul>
+      <li>
+        <a href="home.html">
+          <img src="svg/home.svg" alt="svg icon" />
+        </a>
+      </li>
+      <li>
+        <a href="categories.html">
+          <img src="svg/search.svg" alt="svg icon" />
+        </a>
+      </li>
+      <li>
+        <a href="order.html">
+          <img src="svg/bag-active.svg" alt="svg icon" />
+        </a>
+      </li>
+      <li>
+        <a href="wishlist.html">
+          <img src="svg/heart.svg" alt="svg icon" />
+        </a>
+      </li>
+      <li>
+        <a href="profile.html">
+          <img src="svg/user.svg" alt="svg icon" />
+        </a>
+      </li>
+    </ul>
+  </footer>
+</body>
+
+</html>

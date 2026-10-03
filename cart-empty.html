@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
+  <title>cart-empty</title>
+  <link rel="preload stylesheet" href="css/style.css" as="style">
+  <link rel="preload stylesheet" href="css/mobile.css" as="style">
+  <link rel="preload stylesheet" href="css/global.css" as="style">
+  <link rel="preload stylesheet" href="css/text.css" as="style">
+</head>
+
+<body id="cart-empty">
+
+  <!-- Header -->
+  <header class="header header__line">
+    <!-- Left icon -->
+    <button class="header__left-icon" id="openModal">
+      <img src="svg/burger.svg" alt="go back icon">
+    </button>
+    <!-- Title -->
+    <h4 class="header__mdl-element">Cart</h4>
+    <!-- Basket -->
+    <a class="header__right-icon" href="order.html">
+      <img src="svg/bag.svg" alt="basket">
+      <span class="header__total">$0</span>
+    </a>
+  </header>
+
+  <!-- Header -->
+
+  <!-- Main -->
+  <main class="container">
+    <img src="icons/06.png" alt="basket" class="icon">
+    <h2 class="title">Your cart is empty!</h2>
+    <p class="t16 description">Looks like you haven't made <br>
+      your order yet.
+    </p>
+    <a href="shop.html" class="button">shop now</a>
+  </main>
+
+  <!-- Модальное окно -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <span class="line"></span>
+      <h2 class="title">Contact us</h2>
+
+      <ul>
+        <!-- Item -->
+        <li class="contact-info">
+          <img src="/svg/map-pin.svg" alt="add to cart" class="contact-info__icon">
+          <div class="contact-info__text">
+            <span class="t14">27 Division St, New York,</span>
+            <span class="t14">NY 10002, USA</span>
+          </div>
+        </li>
+        <!-- Item -->
+        <li class="contact-info">
+          <img src="/svg/contact-mail.svg" alt="add to cart" class="contact-info__icon">
+          <div class="contact-info__text">
+            <span class="t14">stephubsale@mail.com</span>
+            <span class="t14">stephubsupport@mail.com</span>
+          </div>
+        </li>
+        <!-- Item -->
+        <li class="contact-info">
+          <img src="/svg/phone-call.svg" alt="add to cart" class="contact-info__icon">
+          <div class="contact-info__text">
+            <span class="t14">+17 123456789</span>
+            <span class="t14">+17 987654321</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <ul>
+      <li>
+        <a href="home.html">
+          <img src="svg/home.svg" alt="svg icon" />
+        </a>
+      </li>
+      <li>
+        <a href="categories.html">
+          <img src="svg/search.svg" alt="svg icon" />
+        </a>
+      </li>
+      <li>
+        <a href="order.html">
+          <img src="svg/bag-active.svg" alt="svg icon" />
+        </a>
+      </li>
+      <li>
+        <a href="wishlist.html">
+          <img src="svg/heart.svg" alt="svg icon" />
+        </a>
+      </li>
+      <li>
+        <a href="profile.html">
+          <img src="svg/user.svg" alt="svg icon" />
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+</body>
+<script>
+
+  document.getElementById('openModal').onclick = function () {
+    document.getElementById('modal').style.display = 'block';
+  }
+
+
+  document.querySelector('.close').onclick = function () {
+    document.getElementById('modal').style.display = 'none';
+  }
+
+
+  window.onclick = function (event) {
+    if (event.target == document.getElementById('modal')) {
+      document.getElementById('modal').style.display = 'none';
+    }
+  }
+</script>
+
+</html>
